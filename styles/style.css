@@ -1,0 +1,218 @@
+.first-h {
+    font-family: 'Oswald', sans-serif;
+    font-size: 78px;
+}
+
+p {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-button {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.first-images {
+    width: 600px;
+    height: 600px;
+    padding-right: 200px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.first-div {
+    display: flex;
+    margin: 10%;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+
+}
+
+.second-div {
+    padding-left: 70px;
+}
+
+.thard-div {
+    display: flex;
+    margin-left: 10px;
+}
+
+.thard-div img {
+    padding-left: 20PX;
+    margin-right: 10px;
+}
+
+.forth-div {
+    display: flex;
+    grid-row-gap: 26px;
+    padding: 160px;
+    padding-top: 25px;
+}
+
+.fifth-div {
+    border: 2px solid gray;
+    width: 70px;
+    padding-left: 10px;
+}
+
+.six-div {
+    background-color: black;
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+    padding-right: 60px;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.seven-div {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 254, 254);
+    padding-top: 150px;
+}
+
+.eight-div {
+    display: flex;
+    padding-left: 500px;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.nine-div {
+    background-color: rgb(2, 0, 0);
+    height: 450px;
+}
+
+.first-p {
+    border: 2px solid black;
+    width: 70px;
+    padding-left: 5px;
+
+
+}
+
+.first-artical {
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 10px;
+    padding-left: 0px;
+    width: 312px;
+    margin: 20px;
+
+}
+
+.first-span {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.second-span {
+    padding-left: 33px;
+    padding-right: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.thard-span {
+    padding-left: 58px;
+    padding-right: 58px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+hr {
+    color: grey;
+}
+
+
+ul {
+    color: white;
+}
+
+/*--------------------- 
+     Media Queries
+ ----------------------*/
+/* Mobail Device */
+
+@media only screen and (max-width:688px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first-div {
+        flex-direction: column;
+        width: 800px;
+    }
+
+    .forth-div {
+        flex-direction: column;
+    }
+
+    .six-div {
+        background-color: white;
+    }
+
+    .first-images {
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+
+    .first-button {
+        margin-left: 30%;
+    }
+
+    .first-h {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .first-span {
+        border: 1px solid gray;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .second-span {
+        border: 1px solid gray;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .thard-span {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .first-artical {
+        margin-right: 50%;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+}
