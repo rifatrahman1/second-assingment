@@ -65,8 +65,9 @@ a {
 
 .fifth-div {
     border: 2px solid gray;
-    width: 70px;
-    padding-left: 10px;
+    width: 80px;
+    padding-left: 5px;
+    margin-left: 5px;
 }
 
 .six-div {
@@ -88,6 +89,7 @@ a {
 
 .eight-div {
     display: flex;
+    text-align: center;
     padding-left: 500px;
     padding-top: 100px;
     font-size: 20px;
@@ -96,6 +98,14 @@ a {
 .nine-div {
     background-color: rgb(2, 0, 0);
     height: 450px;
+}
+
+.ten-div {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    /* display: none; */
+
 }
 
 .first-p {
@@ -174,9 +184,15 @@ ul {
         background-color: white;
     }
 
+    .ten-div {
+        text-align: center;
+    }
+
     .first-images {
-        padding-left: 100px;
+        padding-left: 200px;
         padding-top: 50px;
+        width: 300px;
+        height: 250px;
     }
 
     .first-button {
@@ -213,6 +229,62 @@ ul {
         font-size: 15px;
         text-align: center;
         margin-right: 40px;
+    }
+
+}
+
+/*----------------- 
+    Tablet Device 
+------------------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .first-div {
+        width: 992px;
+    }
+
+    .forth-div {
+        flex-direction: column;
+    }
+
+    .fifth-div {
+        height: 2px;
+    }
+
+    .six-div {
+        background-color: white;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+    }
+
+    .eight-div {
+        padding-right: 200px;
+
+    }
+
+    .first-span {
+        border: 1px solid gray;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .second-span {
+        border: 1px solid gray;
+    }
+
+    .first-images {
+        padding-top: 220px;
+    }
+
+    .first-button {}
+
+    p {
+        padding-bottom: 30px;
     }
 
 }
